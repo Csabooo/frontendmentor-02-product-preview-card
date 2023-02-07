@@ -11,6 +11,13 @@
     --white: hsl(0, 0%, 100%);
 }
 
+html {
+    background-color: var(--cream);
+}
+
+body p{
+    font-size: 14px;
+}
 
 .attribution {
     font-size: 11px;
