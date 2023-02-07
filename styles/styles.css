@@ -37,10 +37,6 @@ body {
     align-items: center;
 }
 
-body p {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-}
 
 button {
     background-color: var(--dark-cyan);
@@ -49,14 +45,12 @@ button {
     font-size: 0.9rem;
     border: none;
     color: var(--white);
-    margin: 1rem 0;
     display: block;
     width: 100%;
     padding: 1rem 0;
     border-radius: 8px;
     display: flex;
     justify-content: center;
-
 }
 
 button:hover {
@@ -68,7 +62,7 @@ h1 {
     color: var(--very-dark-blue);
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 2.1rem;
+    font-size: 2rem;
     margin: 1rem 0;
     line-height: 2rem;
 }
@@ -78,10 +72,13 @@ img {
     border-radius: 10px 10px 0 0;
 }
 
+#img-Desktop {
+    display: none;
+}
+
 main {
     padding: 0;
-    width: 350px;
-    margin: 0 auto;
+    width: 320px;
     background-color: var(--white);
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -92,7 +89,6 @@ main {
     font-weight: 700;
     font-size: 2rem;
     color: var(--dark-cyan);
-    
 }
 
 #oldPrice {
@@ -103,26 +99,94 @@ main {
 
 p {
     margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
     color: var(--dark-grayish-blue);
 }
 
 #perfume {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     letter-spacing: 0.3rem;
+    font-weight: 700;
 }
 
 #price {
     display: flex;
-    margin-top: 1.3rem;
+    margin: 1.3rem 0;
     align-items: center;
-}
-
-#price a {
-    /* display: inline-block;
- */
 }
 
 #shopping-cart {
     width: 20px;
     margin: 0 0.8rem;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 20px;
+    }
+
+    main {
+        width: 58%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        
+    article {
+        padding: 0 1.6rem;
+        width: 70%;
+    }
+
+    br {
+        display: none;
+    }
+
+    html {
+        font-size: 19px;
+    }
+
+    h1 {
+        padding: 1rem 0;
+        font-size: 2.6rem;
+        line-height: 2.5rem;
+    }
+
+    #img-Mobile {
+        display: none;
+    }
+
+    #img-Desktop {
+        display: block;
+        border-radius: 10px 0 0 10px;
+    }
+
+    main {
+        display: flex;
+        width: 80%;
+        max-width: 1000px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    #perfume {
+        font-size: 0.9rem;
+        letter-spacing: 0.3rem;
+        font-weight: 500;
+    }
+
+    #shopping-cart{
+        width: 20px;
+        margin: 0 0.8rem;
+    }
 }
