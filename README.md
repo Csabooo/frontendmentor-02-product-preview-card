@@ -12,7 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- Website - [Csaba Müller](https://www.your-site.com)
-- Frontend Mentor - [@Csabooo](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Csaba Müller](N / A)
+- Frontend Mentor - [@Csabooo](https://www.frontendmentor.io/profile/Csabooo)
 
 
